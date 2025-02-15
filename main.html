@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hack for Hire (HFH)</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Hack for Hire (HFH)</h1>
+      <p>DM me for HFH (Hacker for Hire)</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="services">
+      <div class="container">
+        <h2>Our Services</h2>
+        <div class="service-buttons">
+          <button class="service-button" data-service="Instagram Hack: $25">Instagram Hack: $25</button>
+          <button class="service-button" data-service="Facebook Hack: $25">Facebook Hack: $25</button>
+          <button class="service-button" data-service="Discord Hack: $50">Discord Hack: $50</button>
+          <button class="service-button" data-service="OnlyFans Hack: $50">OnlyFans Hack: $50</button>
+          <button class="service-button" data-service="DDoS Attack (1 Day): $10">DDoS Attack (1 Day): $10</button>
+          <button class="service-button" data-service="Custom Hack: $100">Custom Hack: $100</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="disclaimer">
+      <div class="container">
+        <h2>Disclaimer</h2>
+        <p>This is a fictional website created for a YouTube competition. This is not real and does not promote or condone illegal activities.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Hack for Hire (HFH). All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Order Modal -->
+  <div id="order-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <h2>You are ordering: <span id="selected-service"></span></h2>
+      <form id="order-form">
+        <label for="discord">What is your Discord?</label>
+        <input type="text" id="discord" name="discord" required>
+
+        <label for="twitter">What is your Twitter?</label>
+        <input type="text" id="twitter" name="twitter">
+
+        <label for="email">What is your Email?</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4"></textarea>
+
+        <button type="submit">Submit Order</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

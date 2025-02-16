@@ -35,7 +35,7 @@ orderForm.addEventListener('submit', async (event) => {
   const comments = document.getElementById('comments').value;
 
   // Replace with your Discord webhook URL
-  const webhookURL = ('WEBHOOK2');
+  const webhookURL = 'WEBHOOK2';
 
   try {
     const response = await fetch(webhookURL, {
